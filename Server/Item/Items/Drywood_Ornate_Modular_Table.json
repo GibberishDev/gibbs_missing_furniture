@@ -327,5 +327,9 @@
       "Id": "Charcoal"
     }
   ],
-  "Icon": "Icons/ItemsGenerated/Drywood_Ornate_Modular_Table.png"
+  "Icon": "Icons/ItemsGenerated/Drywood_Ornate_Modular_Table.png",
+  "TranslationProperties": {
+    "Name": "items.Drywood_Ornate_Modular_Table.name",
+    "Description": "items.Modular_Table.description"
+  }
 }

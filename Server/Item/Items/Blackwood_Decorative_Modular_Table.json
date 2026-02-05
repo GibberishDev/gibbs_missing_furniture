@@ -327,5 +327,9 @@
     {
       "Id": "Charcoal"
     }
-  ]
+  ],
+  "TranslationProperties": {
+    "Name": "items.Blackwood_Decorative_Modular_Table.name",
+    "Description": "items.Modular_Table.description"
+  }
 }

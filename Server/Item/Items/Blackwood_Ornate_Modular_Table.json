@@ -327,5 +327,9 @@
       "Id": "Charcoal"
     }
   ],
-  "Icon": "Icons/ItemsGenerated/Blackwood_Ornate_Modular_Table.png"
+  "Icon": "Icons/ItemsGenerated/Blackwood_Ornate_Modular_Table.png",
+  "TranslationProperties": {
+    "Name": "items.Blackwood_Ornate_Modular_Table.name",
+    "Description": "items.Modular_Table.description"
+  }
 }
