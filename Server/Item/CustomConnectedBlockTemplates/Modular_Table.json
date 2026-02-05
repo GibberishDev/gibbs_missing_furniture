@@ -1,0 +1,3204 @@
+{
+  "Shapes": {
+    "Default": {},
+    "Intersection": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "TJunctionN": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "TJunctionS": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "TJunctionE": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "TJunctionW": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "StraightNS": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "StraightEW": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_Outer_NW": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 1,
+                "X": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_Outer_EN": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 1,
+                "X": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_Outer_SE": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": -1,
+                "X": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_Outer_WS": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_NW": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 1,
+                "X": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_EN": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 1,
+                "X": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_SE": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": -1,
+                "X": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_WS": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_Inner_NW": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_Inner_EN": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_Inner_SE": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_Inner_WS": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            }
+          ]
+        }
+      ]
+    },
+    "End_S": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "End_N": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "End_W": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            }
+          ]
+        }
+      ]
+    },
+    "End_E": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "Center": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            }
+          ]
+        }
+      ]
+    },
+    "Diamond_Right": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "Diamond_Left": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            }
+          ]
+        }
+      ]
+    },
+    "TJunction_Left_N": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "TJunction_Left_E": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "TJunction_Left_S": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "TJunction_Left_W": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "TJunction_Right_N": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "TJunction_Right_E": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "TJunction_Right_S": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "TJunction_Right_W": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Edge_N": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Edge_S": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Edge_E": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Edge_W": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Edge_Intersection_N": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "Edge_Intersection_E": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            }
+          ]
+        }
+      ]
+    },
+    "Edge_Intersection_S": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            }
+          ]
+        }
+      ]
+    },
+    "Edge_Intersection_W": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_Intersection_NW": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_Intersection_EN": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_Intersection_SE": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_Intersection_WS": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "Position": {
+                "Z": 0,
+                "X": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Include"
+            },
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "X": 1,
+                "Z": 1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "BlockTypeLists": [
+                "Modular_Table"
+              ]
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Z": -1
+              },
+              "BlockTypeLists": [
+                "Modular_Table"
+              ],
+              "IncludeOrExclude": "Exclude"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "DefaultShape": "Default"
+}

@@ -1,0 +1,20 @@
+{
+  "Group": "gmf",
+  "Name": "Gibb's missing furniture",
+  "Version": "0.1.0",
+  "Description": "Sets of furniture I thought should be in the game",
+  "Authors": [
+    {
+      "Name": "GibbDev",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

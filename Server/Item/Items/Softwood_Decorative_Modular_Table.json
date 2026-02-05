@@ -1,0 +1,331 @@
+{
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "PlayerAnimationsId": {
+    "Parent": "Block"
+  },
+  "Icon": "Icons/ItemsGenerated/Softwood_Decorative_Modular_Table.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "MaxStack": 100,
+  "BlockType": {
+    "DrawType": "Model",
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "Modular_Table",
+      "TemplateShapeBlockPatterns": {
+        "Default": "Softwood_Decorative_Modular_Table",
+        "Intersection": "*Softwood_Decorative_Modular_Table_State_Definitions_Intersection",
+        "TJunctionN": "*Softwood_Decorative_Modular_Table_State_Definitions_TJunctionN",
+        "TJunctionS": "*Softwood_Decorative_Modular_Table_State_Definitions_TJunctionS",
+        "TJunctionE": "*Softwood_Decorative_Modular_Table_State_Definitions_TJunctionE",
+        "TJunctionW": "*Softwood_Decorative_Modular_Table_State_Definitions_TJunctionW",
+        "StraightNS": "*Softwood_Decorative_Modular_Table_State_Definitions_StraightNS",
+        "StraightEW": "*Softwood_Decorative_Modular_Table_State_Definitions_StraightEW",
+        "Corner_Outer_NW": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_Outer_NW",
+        "Corner_Outer_EN": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_Outer_EN",
+        "Corner_Outer_SE": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_Outer_SE",
+        "Corner_Outer_WS": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_Outer_WS",
+        "Corner_NW": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_NW",
+        "Corner_EN": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_EN",
+        "Corner_SE": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_SE",
+        "Corner_WS": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_WS",
+        "Corner_Inner_NW": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_Inner_NW",
+        "Corner_Inner_EN": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_Inner_EN",
+        "Corner_Inner_SE": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_Inner_SE",
+        "Corner_Inner_WS": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_Inner_WS",
+        "End_S": "*Softwood_Decorative_Modular_Table_State_Definitions_End_S",
+        "End_N": "*Softwood_Decorative_Modular_Table_State_Definitions_End_N",
+        "End_W": "*Softwood_Decorative_Modular_Table_State_Definitions_End_W",
+        "End_E": "*Softwood_Decorative_Modular_Table_State_Definitions_End_E",
+        "Center": "*Softwood_Decorative_Modular_Table_State_Definitions_Center",
+        "Diamond_Right": "*Softwood_Decorative_Modular_Table_State_Definitions_Diamond_Right",
+        "Diamond_Left": "*Softwood_Decorative_Modular_Table_State_Definitions_Diamond_Left",
+        "TJunction_Left_N": "*Softwood_Decorative_Modular_Table_State_Definitions_TJunction_Left_N",
+        "TJunction_Left_E": "*Softwood_Decorative_Modular_Table_State_Definitions_TJunction_Left_E",
+        "TJunction_Left_S": "*Softwood_Decorative_Modular_Table_State_Definitions_TJunction_Left_S",
+        "TJunction_Left_W": "*Softwood_Decorative_Modular_Table_State_Definitions_TJunction_Left_W",
+        "TJunction_Right_N": "*Softwood_Decorative_Modular_Table_State_Definitions_TJunction_Right_N",
+        "TJunction_Right_E": "*Softwood_Decorative_Modular_Table_State_Definitions_TJunction_Right_E",
+        "TJunction_Right_S": "*Softwood_Decorative_Modular_Table_State_Definitions_TJunction_Right_S",
+        "TJunction_Right_W": "*Softwood_Decorative_Modular_Table_State_Definitions_TJunction_Right_W",
+        "Edge_N": "*Softwood_Decorative_Modular_Table_State_Definitions_Edge_N",
+        "Edge_E": "*Softwood_Decorative_Modular_Table_State_Definitions_Edge_E",
+        "Edge_S": "*Softwood_Decorative_Modular_Table_State_Definitions_Edge_S",
+        "Edge_W": "*Softwood_Decorative_Modular_Table_State_Definitions_Edge_W",
+        "Edge_Intersection_N": "*Softwood_Decorative_Modular_Table_State_Definitions_Edge_Intersection_N",
+        "Edge_Intersection_E": "*Softwood_Decorative_Modular_Table_State_Definitions_Edge_Intersection_E",
+        "Edge_Intersection_S": "*Softwood_Decorative_Modular_Table_State_Definitions_Edge_Intersection_S",
+        "Edge_Intersection_W": "*Softwood_Decorative_Modular_Table_State_Definitions_Edge_Intersection_W",
+        "Corner_Intersection_NW": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_Intersection_NW",
+        "Corner_Intersection_EN": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_Intersection_EN",
+        "Corner_Intersection_SE": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_Intersection_SE",
+        "Corner_Intersection_WS": "*Softwood_Decorative_Modular_Table_State_Definitions_Corner_Intersection_WS"
+      }
+    },
+    "CustomModel": "Blocks/Modular_Tables/Modular_Table.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Wood_Softwood_Decorative.png"
+      }
+    ],
+    "State": {
+      "Definitions": {
+        "Intersection": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Intersection.blockymodel"
+        },
+        "TJunctionN": {
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunctuionN.blockymodel",
+          "DrawType": "Model"
+        },
+        "TJunctionS": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunctuionS.blockymodel"
+        },
+        "TJunctionE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunctuionE.blockymodel"
+        },
+        "TJunctionW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunctuionW.blockymodel"
+        },
+        "StraightEW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_StraightEW.blockymodel"
+        },
+        "StraightNS": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_StraightNS.blockymodel"
+        },
+        "Corner_Outer_NW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Outer_NW.blockymodel"
+        },
+        "Corner_Outer_EN": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Outer_EN.blockymodel"
+        },
+        "Corner_Outer_SE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Outer_SE.blockymodel"
+        },
+        "Corner_Outer_WS": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Outer_WS.blockymodel"
+        },
+        "Corner_NW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_NW.blockymodel"
+        },
+        "Corner_EN": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_EN.blockymodel"
+        },
+        "Corner_SE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_SE.blockymodel"
+        },
+        "Corner_WS": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_WS.blockymodel"
+        },
+        "Corner_Inner_NW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Inner_NW.blockymodel"
+        },
+        "Corner_Inner_EN": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Inner_EN.blockymodel"
+        },
+        "Corner_Inner_SE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Inner_SE.blockymodel"
+        },
+        "Corner_Inner_WS": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Inner_WS.blockymodel"
+        },
+        "End_S": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_End_S.blockymodel"
+        },
+        "End_N": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_End_N.blockymodel"
+        },
+        "End_W": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_End_W.blockymodel"
+        },
+        "End_E": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_End_E.blockymodel"
+        },
+        "Center": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Center.blockymodel"
+        },
+        "Diamond_Right": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Diamond_Right.blockymodel"
+        },
+        "Diamond_Left": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Diamond_Left.blockymodel"
+        },
+        "TJunction_Left_N": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Left_N.blockymodel"
+        },
+        "TJunction_Left_E": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Left_E.blockymodel"
+        },
+        "TJunction_Left_S": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Left_S.blockymodel"
+        },
+        "TJunction_Left_W": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Left_W.blockymodel"
+        },
+        "TJunction_Right_N": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Right_N.blockymodel"
+        },
+        "TJunction_Right_E": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Right_E.blockymodel"
+        },
+        "TJunction_Right_S": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Right_S.blockymodel"
+        },
+        "TJunction_Right_W": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Right_W.blockymodel"
+        },
+        "Edge_N": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_N.blockymodel"
+        },
+        "Edge_E": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_E.blockymodel"
+        },
+        "Edge_S": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_S.blockymodel"
+        },
+        "Edge_W": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_W.blockymodel"
+        },
+        "Edge_Intersection_N": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_Intersection_N.blockymodel"
+        },
+        "Edge_Intersection_E": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_Intersection_E.blockymodel"
+        },
+        "Edge_Intersection_S": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_Intersection_S.blockymodel"
+        },
+        "Edge_Intersection_W": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_Intersection_W.blockymodel"
+        },
+        "Corner_Intersection_NW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Intersection_NW.blockymodel"
+        },
+        "Corner_Intersection_EN": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Intersection_EN.blockymodel"
+        },
+        "Corner_Intersection_SE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Intersection_SE.blockymodel"
+        },
+        "Corner_Intersection_WS": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Intersection_WS.blockymodel"
+        }
+      }
+    },
+    "Group": "Wood",
+    "Material": "Solid",
+    "Supporting": {
+      "Up": [
+        {}
+      ]
+    },
+    "PlacementSettings": {
+      "BlockPreviewVisibility": "AlwaysVisible"
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#664521",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockSoundSetId": "Wood",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Tags": {
+    "gibb": [
+      "Modular_Table"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Wood_Softwood_Decorative"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Table"
+        ]
+      }
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ]
+}
