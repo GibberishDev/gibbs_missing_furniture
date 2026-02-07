@@ -15,9 +15,9 @@
         },
         "textureLayout": {
           "top": {
-            "offset": {"x": 32, "y": 31},
+            "offset": {"x": 0, "y": 1},
             "mirror": {"x": true, "y": true},
-            "angle": 0
+            "angle": 180
           },
           "bottom": {
             "offset": {"x": 32, "y": 0},
@@ -33,49 +33,7 @@
       "children": [
         {
           "id": "2",
-          "name": "cube--C1",
-          "position": {"x": 0, "y": -2, "z": -0.5},
-          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
-          "shape": {
-            "type": "box",
-            "offset": {"x": 0, "y": -15, "z": 0},
-            "stretch": {"x": 1, "y": 1, "z": 1},
-            "settings": {
-              "isPiece": false,
-              "size": {"x": 32, "y": 2, "z": 4},
-              "isStaticBox": true
-            },
-            "textureLayout": {
-              "back": {
-                "offset": {"x": 32, "y": 22},
-                "mirror": {"x": true, "y": false},
-                "angle": 0
-              },
-              "front": {
-                "offset": {"x": 32, "y": 22},
-                "mirror": {"x": true, "y": false},
-                "angle": 0
-              },
-              "top": {
-                "offset": {"x": 32, "y": 19},
-                "mirror": {"x": true, "y": false},
-                "angle": 0
-              },
-              "bottom": {
-                "offset": {"x": 0, "y": 23},
-                "mirror": {"x": false, "y": true},
-                "angle": 0
-              }
-            },
-            "unwrapMode": "custom",
-            "visible": true,
-            "doubleSided": false,
-            "shadingMode": "flat"
-          }
-        },
-        {
-          "id": "3",
-          "name": "cube--C2",
+          "name": "edge_n--C1",
           "position": {"x": 0, "y": -0.82843, "z": -15.5},
           "orientation": {"x": -0.38268, "y": 0, "z": 0, "w": 0.92388},
           "shape": {
@@ -89,14 +47,98 @@
             },
             "textureLayout": {
               "back": {
-                "offset": {"x": 0, "y": 32},
-                "mirror": {"x": false, "y": true},
+                "offset": {"x": 32, "y": 0},
+                "mirror": {"x": true, "y": false},
                 "angle": 0
               },
               "top": {
-                "offset": {"x": 32, "y": 32},
+                "offset": {"x": 0, "y": 0},
                 "mirror": {"x": false, "y": false},
-                "angle": 180
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          }
+        },
+        {
+          "id": "3",
+          "name": "cross--C2",
+          "position": {"x": 0, "y": -1, "z": -0.5},
+          "orientation": {"x": 0, "y": 0.70711, "z": 0, "w": 0.70711},
+          "shape": {
+            "type": "box",
+            "offset": {"x": 0, "y": -15, "z": -8},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 4, "y": 2, "z": 16},
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "right": {
+                "offset": {"x": 32, "y": 21},
+                "mirror": {"x": true, "y": false},
+                "angle": 90
+              },
+              "left": {
+                "offset": {"x": 32, "y": 21},
+                "mirror": {"x": true, "y": false},
+                "angle": 90
+              },
+              "top": {
+                "offset": {"x": 28, "y": 21},
+                "mirror": {"x": false, "y": true},
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {"x": 28, "y": 5},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          }
+        },
+        {
+          "id": "4",
+          "name": "cross--C3",
+          "position": {"x": 0, "y": -1, "z": -0.5},
+          "orientation": {"x": 0, "y": 0.70711, "z": 0, "w": 0.70711},
+          "shape": {
+            "type": "box",
+            "offset": {"x": 0, "y": -15, "z": 8},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 4, "y": 2, "z": 16},
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "right": {
+                "offset": {"x": 32, "y": 21},
+                "mirror": {"x": true, "y": false},
+                "angle": 90
+              },
+              "left": {
+                "offset": {"x": 32, "y": 21},
+                "mirror": {"x": true, "y": false},
+                "angle": 90
+              },
+              "top": {
+                "offset": {"x": 32, "y": 5},
+                "mirror": {"x": true, "y": false},
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {"x": 32, "y": 21},
+                "mirror": {"x": true, "y": true},
+                "angle": 0
               }
             },
             "unwrapMode": "custom",

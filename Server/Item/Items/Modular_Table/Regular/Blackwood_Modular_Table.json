@@ -1,0 +1,297 @@
+{
+  "Parent": "Modular_Table",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Wood_Blackwood_Planks.png"
+      }
+    ],
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "Modular_Table",
+      "TemplateShapeBlockPatterns": {
+        "Default": "Blackwood_Modular_Table",
+        "End_N": "*Blackwood_Modular_Table_State_Definitions_End_N",
+        "End_S": "*Blackwood_Modular_Table_State_Definitions_End_S",
+        "End_E": "*Blackwood_Modular_Table_State_Definitions_End_E",
+        "End_W": "*Blackwood_Modular_Table_State_Definitions_End_W",
+        "Straight_NS": "*Blackwood_Modular_Table_State_Definitions_Straight_NS",
+        "Straight_EW": "*Blackwood_Modular_Table_State_Definitions_Straight_EW",
+        "Edge_N": "*Blackwood_Modular_Table_State_Definitions_Edge_N",
+        "Edge_S": "*Blackwood_Modular_Table_State_Definitions_Edge_S",
+        "Edge_E": "*Blackwood_Modular_Table_State_Definitions_Edge_E",
+        "Edge_W": "*Blackwood_Modular_Table_State_Definitions_Edge_W",
+        "Intersection": "*Blackwood_Modular_Table_State_Definitions_Intersection",
+        "Center": "*Blackwood_Modular_Table_State_Definitions_Center",
+        "TJunction_N": "*Blackwood_Modular_Table_State_Definitions_TJunction_N",
+        "TJunction_S": "*Blackwood_Modular_Table_State_Definitions_TJunction_S",
+        "TJunction_E": "*Blackwood_Modular_Table_State_Definitions_TJunction_E",
+        "TJunction_W": "*Blackwood_Modular_Table_State_Definitions_TJunction_W",
+        "TJunction_Left_N": "*Blackwood_Modular_Table_State_Definitions_TJunction_Left_N",
+        "TJunction_Left_S": "*Blackwood_Modular_Table_State_Definitions_TJunction_Left_S",
+        "TJunction_Left_E": "*Blackwood_Modular_Table_State_Definitions_TJunction_Left_E",
+        "TJunction_Left_W": "*Blackwood_Modular_Table_State_Definitions_TJunction_Left_W",
+        "TJunction_Right_N": "*Blackwood_Modular_Table_State_Definitions_TJunction_Right_N",
+        "TJunction_Right_E": "*Blackwood_Modular_Table_State_Definitions_TJunction_Right_E",
+        "TJunction_Right_S": "*Blackwood_Modular_Table_State_Definitions_TJunction_Right_S",
+        "TJunction_Right_W": "*Blackwood_Modular_Table_State_Definitions_TJunction_Right_W",
+        "Corner_NW": "*Blackwood_Modular_Table_State_Definitions_Corner_NW",
+        "Corner_NE": "*Blackwood_Modular_Table_State_Definitions_Corner_NE",
+        "Corner_SE": "*Blackwood_Modular_Table_State_Definitions_Corner_SE",
+        "Corner_SW": "*Blackwood_Modular_Table_State_Definitions_Corner_SW",
+        "Corner_Outer_NW": "*Blackwood_Modular_Table_State_Definitions_Corner_Outer_NW",
+        "Corner_Outer_NE": "*Blackwood_Modular_Table_State_Definitions_Corner_Outer_NE",
+        "Corner_Outer_SE": "*Blackwood_Modular_Table_State_Definitions_Corner_Outer_SE",
+        "Corner_Outer_SW": "*Blackwood_Modular_Table_State_Definitions_Corner_Outer_SW",
+        "Corner_Inner_NW": "*Blackwood_Modular_Table_State_Definitions_Corner_Inner_NW",
+        "Corner_Inner_NE": "*Blackwood_Modular_Table_State_Definitions_Corner_Inner_Ne",
+        "Corner_Inner_SE": "*Blackwood_Modular_Table_State_Definitions_Corner_Inner_SE",
+        "Corner_Inner_SW": "*Blackwood_Modular_Table_State_Definitions_Corner_Inner_SW",
+        "Diamond_Right": "*Blackwood_Modular_Table_State_Definitions_Diamond_Right",
+        "Diamond_Left": "*Blackwood_Modular_Table_State_Definitions_Diamond_Left",
+        "Edge_Intersection_N": "*Blackwood_Modular_Table_State_Definitions_Edge_Intersection_N",
+        "Edge_Intersection_S": "*Blackwood_Modular_Table_State_Definitions_Edge_Intersection_S",
+        "Edge_Intersection_E": "*Blackwood_Modular_Table_State_Definitions_Edge_Intersection_E",
+        "Edge_Intersection_W": "*Blackwood_Modular_Table_State_Definitions_Edge_Intersection_W",
+        "Corner_Intersection_NW": "*Blackwood_Modular_Table_State_Definitions_Corner_Intersection_NW",
+        "Corner_Intersection_NE": "*Blackwood_Modular_Table_State_Definitions_Corner_Intersection_NE",
+        "Corner_Intersection_SE": "*Blackwood_Modular_Table_State_Definitions_Corner_Intersection_SE",
+        "Corner_Intersection_SW": "*Blackwood_Modular_Table_State_Definitions_Corner_Intersection_SW"
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Intersection": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Intersection.blockymodel"
+        },
+        "TJunction_N": {
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunctuion_N.blockymodel",
+          "DrawType": "Model"
+        },
+        "TJunction_S": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunctuion_S.blockymodel"
+        },
+        "TJunction_E": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunctuion_E.blockymodel"
+        },
+        "TJunction_W": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunctuion_W.blockymodel"
+        },
+        "Straight_EW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Straight_EW.blockymodel"
+        },
+        "Straight_NS": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Straight_NS.blockymodel"
+        },
+        "Corner_Outer_NW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Outer_NW.blockymodel"
+        },
+        "Corner_Outer_NE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Outer_NE.blockymodel"
+        },
+        "Corner_Outer_SE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Outer_SE.blockymodel"
+        },
+        "Corner_Outer_SW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Outer_SW.blockymodel"
+        },
+        "Corner_NW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_NW.blockymodel"
+        },
+        "Corner_NE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_NE.blockymodel"
+        },
+        "Corner_SE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_SE.blockymodel"
+        },
+        "Corner_SW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_SW.blockymodel"
+        },
+        "Corner_Inner_NW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Inner_NW.blockymodel"
+        },
+        "Corner_Inner_NE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Inner_NE.blockymodel"
+        },
+        "Corner_Inner_SE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Inner_SE.blockymodel"
+        },
+        "Corner_Inner_SW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Inner_SW.blockymodel"
+        },
+        "End_S": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_End_S.blockymodel"
+        },
+        "End_N": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_End_N.blockymodel"
+        },
+        "End_W": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_End_W.blockymodel"
+        },
+        "End_E": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_End_E.blockymodel"
+        },
+        "Center": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Center.blockymodel"
+        },
+        "Diamond_Right": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Diamond_Right.blockymodel"
+        },
+        "Diamond_Left": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Diamond_Left.blockymodel"
+        },
+        "TJunction_Left_N": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Left_N.blockymodel"
+        },
+        "TJunction_Left_E": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Left_E.blockymodel"
+        },
+        "TJunction_Left_S": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Left_S.blockymodel"
+        },
+        "TJunction_Left_W": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Left_W.blockymodel"
+        },
+        "TJunction_Right_N": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Right_N.blockymodel"
+        },
+        "TJunction_Right_E": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Right_E.blockymodel"
+        },
+        "TJunction_Right_S": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Right_S.blockymodel"
+        },
+        "TJunction_Right_W": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_TJunction_Right_W.blockymodel"
+        },
+        "Edge_N": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_N.blockymodel"
+        },
+        "Edge_E": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_E.blockymodel"
+        },
+        "Edge_S": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_S.blockymodel"
+        },
+        "Edge_W": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_W.blockymodel"
+        },
+        "Edge_Intersection_N": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_Intersection_N.blockymodel"
+        },
+        "Edge_Intersection_E": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_Intersection_E.blockymodel"
+        },
+        "Edge_Intersection_S": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_Intersection_S.blockymodel"
+        },
+        "Edge_Intersection_W": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Edge_Intersection_W.blockymodel"
+        },
+        "Corner_Intersection_NW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Intersection_NW.blockymodel"
+        },
+        "Corner_Intersection_NE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Intersection_NE.blockymodel"
+        },
+        "Corner_Intersection_SE": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Intersection_SE.blockymodel"
+        },
+        "Corner_Intersection_SW": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Modular_Tables/Modular_Table_Corner_Intersection_SW.blockymodel"
+        }
+      }
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Blackwood_Modular_Table.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "TranslationProperties": {
+    "Name": "items.Blackwood_Modular_Table.name",
+    "Description": "items.Modular_Table.description"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Wood_Blackwood_Planks"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Table"
+        ]
+      }
+    ]
+  },
+  "MaxStack": 1
+}

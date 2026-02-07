@@ -1,7 +1,7 @@
 {
   "Group": "gmf",
   "Name": "Gibb's missing furniture",
-  "Version": "0.1.0",
+  "Version": "0.1.1",
   "Description": "Sets of furniture I thought should be in the game",
   "Authors": [
     {
@@ -16,5 +16,15 @@
   "LoadBefore": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": true,
-  "SubPlugins": []
+  "SubPlugins": [],
+  "Changelog": [
+    {
+      "0.1.1":[
+        "# Update v0.1.0",
+        "Update Modular Tables to not ustilize BlockTypeListAsset to not trigger error in Hytale causeing a crash",
+        "Rework Modular Tables so they are inherrited ItemType instead of unique item each time",
+        "Update UV mapping and models to better fit ornate variations of Modular Tables"
+      ]
+    }
+  ]
 }
