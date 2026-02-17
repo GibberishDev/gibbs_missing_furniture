@@ -1,0 +1,62 @@
+{
+  "Parent": "Essence_Light",
+  "BlockType": {
+    "CustomModel": "Blocks/Essence_Light/Essence_Light_Hanging_Connected.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/deco/essence_light/nature_essence_light.png"
+      }
+    ],
+    "CustomModelAnimation": "Blocks/Essence_Light/on.blockyanim",
+    "State": {
+      "Definitions": {
+        "On": {},
+        "Off": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Essence_Light/Essence_Light_Hanging_Connected.blockymodel",
+          "CustomModelAnimation": "Blocks/Essence_Light/off.blockyanim",
+          "Light": {
+            "Color": "#000"
+          },
+          "ConnectedBlockRuleSet": {
+            "Type": "CustomTemplate",
+            "TemplateShapeAssetId": "Essence_Light",
+            "TemplateShapeBlockPatterns": {
+              "Default": "*Essence_Light_Hanging_State_Definitions_Off",
+              "Connected": "*Essence_Light_Hanging_Connected_State_Definitions_Off"
+            }
+          }
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "Essence_Light",
+      "TemplateShapeBlockPatterns": {
+        "Default": "Essence_Light_Hanging",
+        "Connected": "Essence_Light_Hanging_Connected"
+      }
+    },
+    "Support": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Branch"
+        },
+        {
+          "FaceType": "Rope"
+        },
+        {
+          "FaceType": "Essence_Light"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Essence_Light"
+      }
+    }
+  }
+}

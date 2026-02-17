@@ -1,0 +1,159 @@
+{
+  "Categories": [
+    "Blocks.Deco",
+    "Furniture.Lighting",
+    "Blocks.Deco"
+  ],
+  "BlockType": {
+    "PlacementSettings": {
+      "CeilingPlacementOverrideBlockId": "Essence_Light_Hanging",
+      "FloorPlacementOverrideBlockId": "Essence_Light"
+    },
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "Light": {
+      "Color": "#7b3",
+      "Radius": 1
+    },
+    "Flags": {},
+    "Gathering": {
+      "Soft": {}
+    },
+    "BlockSoundSetId": "Wood",
+    "CustomModel": "Blocks/Essence_Light/Essence_Light.blockymodel",
+    "InteractionHint": "server.interactionHints.turnoff",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/deco/essence_light/nature_essence_light.png"
+      }
+    ],
+    "CustomModelAnimation": "Blocks/Essence_Light/on.blockyanim",
+    "State": {
+      "Definitions": {
+        "On": {},
+        "Off": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Essence_Light/Essence_Light.blockymodel",
+          "CustomModelAnimation": "Blocks/Essence_Light/off.blockyanim",
+          "BlockParticleSetId": "GlassEmpty",
+          "Light": {
+            "Color": "#000"
+          },
+          "InteractionHint": "server.interactionHints.turnon"
+        }
+      }
+    },
+    "Looping": true,
+    "BlockParticleSetId": "Glass",
+    "ParticleColor": "#57ff00",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Off",
+              "On": "Off",
+              "Off": "On"
+            },
+            "UpdateBlockState": true
+          }
+        ]
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Full",
+          "Filler": []
+        },
+        {
+          "FaceType": "Branch"
+        },
+        {
+          "FaceType": "Rock_Beam"
+        },
+        {
+          "FaceType": "Wood_Beam"
+        },
+        {
+          "FaceType": "Fence"
+        },
+        {
+          "FaceType": "Fence_Corner"
+        },
+        {
+          "FaceType": "Wall"
+        },
+        {
+          "FaceType": "Wall_Corner"
+        },
+        {
+          "FaceType": "Rope"
+        },
+        {
+          "BlockTypeId": "Deco_Iron_Chain_Small"
+        },
+        {
+          "BlockTypeId": "Deco_Iron_Chains_Vertical"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Branch"
+        },
+        {
+          "FaceType": "Rope"
+        },
+        {
+          "FaceType": "Essence_Light"
+        }
+      ]
+    },
+    "Supporting": {
+      "Down": [
+        {
+          "FaceType": "Essence_Light"
+        },
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "CubeShadingMode": "Standard",
+    "RequiresAlphaBlending": false,
+    "Tags": {
+      "Deco": [
+        "Essence_Light"
+      ]
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Clay",
+  "Icon": "Icons/ItemsGenerated/Essence_Light.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  },
+  "Quality": "Debug"
+}

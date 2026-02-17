@@ -1,0 +1,56 @@
+{
+  "Shapes": {
+    "Default": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "IncludeOrExclude": "Exclude",
+              "Position": {
+                "Y": -1
+              }
+            }
+          ]
+        }
+      ],
+      "FaceTags": {
+        "Up": [
+          "Essence_Light_Top"
+        ]
+      }
+    },
+    "Connected": {
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "Y": -1
+              },
+              "BlockTypes": [
+                "Deco_Rope|Pitch=90"
+              ]
+            }
+          ]
+        },
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "IncludeOrExclude": "Include",
+              "Position": {
+                "Y": -1,
+                "Z": 0,
+                "X": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "DefaultShape": "Default"
+}

@@ -1,7 +1,7 @@
 {
   "Group": "gmf",
   "Name": "Gibb's missing furniture",
-  "Version": "0.1.1",
+  "Version": "0.1.2",
   "Description": "Sets of furniture I thought should be in the game",
   "Authors": [
     {
@@ -10,6 +10,7 @@
       "Url": ""
     }
   ],
+  "ServerVersion": "2026.02.17-255364b8e",
   "Website": "",
   "Dependencies": {},
   "OptionalDependencies": {},
