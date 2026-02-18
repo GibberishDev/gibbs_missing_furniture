@@ -17,6 +17,9 @@
       "FaceTags": {
         "Up": [
           "Essence_Light_Top"
+        ],
+        "Down": [
+          "Essence_Lantern"
         ]
       }
     },
@@ -28,11 +31,15 @@
             {
               "IncludeOrExclude": "Include",
               "Position": {
-                "Y": -1
+                "Y": -1,
+                "X": 0,
+                "Z": 0
               },
-              "BlockTypes": [
-                "Deco_Rope|Pitch=90"
-              ]
+              "FaceTags": {
+                "Down": [
+                  "Essence_Lantern"
+                ]
+              }
             }
           ]
         },
@@ -43,13 +50,24 @@
               "IncludeOrExclude": "Include",
               "Position": {
                 "Y": -1,
-                "Z": 0,
-                "X": 0
-              }
+                "X": 0,
+                "Z": 0
+              },
+              "BlockTypes": [
+                "Deco_Rope"
+              ]
             }
           ]
         }
-      ]
+      ],
+      "FaceTags": {
+        "Up": [
+          "Essence_Lantern"
+        ],
+        "Down": [
+          "Essence_Lantern"
+        ]
+      }
     }
   },
   "DefaultShape": "Default"

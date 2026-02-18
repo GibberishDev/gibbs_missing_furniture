@@ -1,0 +1,113 @@
+{
+  "Parent": "Essence_Light",
+  "BlockType": {
+    "PlacementSettings": {
+      "CeilingPlacementOverrideBlockId": "Void_Essence_Lantern_Hanging",
+      "FloorPlacementOverrideBlockId": "Void_Essence_Lantern",
+      "WallPlacementOverrideBlockId": "Void_Essence_Lantern_Hanging"
+    },
+    "Gathering": {
+      "Soft": {}
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Off",
+              "On": "Off",
+              "Off": "On"
+            },
+            "UpdateBlockState": true
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {},
+        "Off": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Essence_Light/Essence_Light_No_Detail.blockymodel",
+          "CustomModelAnimation": "Blocks/Essence_Light/off.blockyanim",
+          "BlockParticleSetId": "GlassEmpty",
+          "Light": {
+            "Color": "#000"
+          },
+          "InteractionHint": "server.interactionHints.turnon",
+          "Particles": [],
+          "InteractionSoundEventId": "SFX_Torch_Off"
+        }
+      }
+    },
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/deco/essence_light/void_essence_light.png"
+      }
+    ],
+    "Light": {
+      "Color": "#72e"
+    },
+    "Particles": [
+      {
+        "SystemId": "Fire_Void",
+        "Scale": 0.6,
+        "PositionOffset": {
+          "Y": 0.35
+        },
+        "RotationOffset": {
+          "Roll": 180
+        }
+      }
+    ],
+    "CubeShadingMode": "Standard",
+    "ParticleColor": "#7500c9",
+    "RequiresAlphaBlending": true,
+    "CustomModel": "Blocks/Essence_Light/Essence_Light_No_Detail.blockymodel"
+  },
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "",
+        "Quantity": 1,
+        "ItemId": "Potion_Empty"
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Deco_Rope",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Lighting"
+        ],
+        "Id": "Furniture_Bench"
+      }
+    ]
+  },
+  "Quality": "Uncommon",
+  "TranslationProperties": {
+    "Name": "items.Void_Essence_Lantern.name",
+    "Description": "items.Essence_Lantern.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Void_Essence_Lantern.png"
+}

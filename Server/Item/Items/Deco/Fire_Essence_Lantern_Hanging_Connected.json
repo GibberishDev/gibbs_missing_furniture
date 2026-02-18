@@ -1,0 +1,65 @@
+{
+  "Parent": "Essence_Light_Hanging_Connected",
+  "BlockType": {
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "Essence_Light",
+      "TemplateShapeBlockPatterns": {
+        "Default": "Fire_Essence_Lantern_Hanging",
+        "Connected": "Fire_Essence_Lantern_Hanging_Connected"
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {},
+        "Off": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Essence_Light/Essence_Light_Hanging_Connected_No_Detail.blockymodel",
+          "CustomModelAnimation": "Blocks/Essence_Light/off.blockyanim",
+          "Light": {
+            "Color": "#000"
+          },
+          "ConnectedBlockRuleSet": {
+            "Type": "CustomTemplate",
+            "TemplateShapeAssetId": "Essence_Light",
+            "TemplateShapeBlockPatterns": {
+              "Default": "*Fire_Essence_Lantern_Hanging_State_Definitions_Off",
+              "Connected": "*Fire_Essence_Lantern_Hanging_Connected_State_Definitions_Off"
+            }
+          },
+          "BlockParticleSetId": "GlassEmpty",
+          "Particles": [],
+          "InteractionHint": "server.interactionHints.turnon",
+          "InteractionSoundEventId": "SFX_Torch_Off"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Fire_Essence_Lantern"
+      },
+      "Soft": {
+        "ItemId": "Fire_Essence_Lantern"
+      }
+    },
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/deco/essence_light/fire_essence_light.png"
+      }
+    ],
+    "Particles": [
+      {
+        "SystemId": "Torch_Fire",
+        "Scale": 0.6,
+        "PositionOffset": {
+          "Y": -0.65
+        }
+      }
+    ],
+    "Light": {
+      "Color": "#c30"
+    },
+    "CustomModel": "Blocks/Essence_Light/Essence_Light_Hanging_Connected_No_Detail.blockymodel",
+    "ParticleColor": "#c03000"
+  }
+}

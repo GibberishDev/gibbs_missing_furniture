@@ -1,0 +1,108 @@
+{
+  "Parent": "Essence_Light",
+  "BlockType": {
+    "PlacementSettings": {
+      "CeilingPlacementOverrideBlockId": "Water_Essence_Lantern_Hanging",
+      "FloorPlacementOverrideBlockId": "Water_Essence_Lantern",
+      "WallPlacementOverrideBlockId": "Water_Essence_Lantern_Hanging"
+    },
+    "Gathering": {
+      "Soft": {}
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Off",
+              "On": "Off",
+              "Off": "On"
+            },
+            "UpdateBlockState": true
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {},
+        "Off": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Essence_Light/Essence_Light_No_Detail.blockymodel",
+          "CustomModelAnimation": "Blocks/Essence_Light/off.blockyanim",
+          "BlockParticleSetId": "GlassEmpty",
+          "Light": {
+            "Color": "#000"
+          },
+          "InteractionHint": "server.interactionHints.turnon",
+          "Particles": [],
+          "InteractionSoundEventId": "SFX_Torch_Off"
+        }
+      }
+    },
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/deco/essence_light/water_essence_light.png"
+      }
+    ],
+    "Light": {
+      "Color": "#01f"
+    },
+    "Particles": [
+      {
+        "SystemId": "Water_Sprint",
+        "Scale": 0.3,
+        "PositionOffset": {
+          "Y": 0.1
+        }
+      }
+    ],
+    "ParticleColor": "#0e43d8",
+    "CustomModel": "Blocks/Essence_Light/Essence_Light_No_Detail.blockymodel"
+  },
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "",
+        "Quantity": 1,
+        "ItemId": "Potion_Empty"
+      },
+      {
+        "ItemId": "Ingredient_Water_Essence",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Deco_Rope",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Lighting"
+        ],
+        "Id": "Furniture_Bench"
+      }
+    ]
+  },
+  "Quality": "Uncommon",
+  "TranslationProperties": {
+    "Name": "items.Water_Essence_Lantern.name",
+    "Description": "items.Essence_Lantern.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Water_Essence_Lantern.png"
+}

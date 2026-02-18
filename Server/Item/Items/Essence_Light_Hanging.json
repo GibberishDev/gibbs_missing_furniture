@@ -25,7 +25,11 @@
               "Default": "*Essence_Light_Hanging_State_Definitions_Off",
               "Connected": "*Essence_Light_Hanging_Connected_State_Definitions_Off"
             }
-          }
+          },
+          "BlockParticleSetId": "GlassEmpty",
+          "Particles": [],
+          "InteractionHint": "server.interactionHints.turnon",
+          "InteractionSoundEventId": "SFX_Torch_Off"
         }
       }
     },
@@ -40,7 +44,74 @@
     "Gathering": {
       "Breaking": {
         "ItemId": "Essence_Light"
+      },
+      "Soft": {
+        "ItemId": "Essence_Light"
       }
-    }
-  }
+    },
+    "Support": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Full",
+          "Filler": []
+        },
+        {
+          "FaceType": "Branch"
+        },
+        {
+          "FaceType": "Rock_Beam"
+        },
+        {
+          "FaceType": "Wood_Beam"
+        },
+        {
+          "FaceType": "Fence"
+        },
+        {
+          "FaceType": "Fence_Corner"
+        },
+        {
+          "FaceType": "Wall"
+        },
+        {
+          "FaceType": "Wall_Corner"
+        },
+        {
+          "FaceType": "Rope"
+        },
+        {
+          "BlockTypeId": "Deco_Iron_Chain_Small"
+        },
+        {
+          "BlockTypeId": "Deco_Iron_Chains_Vertical"
+        },
+        {
+          "FaceType": "Essence_Lantern"
+        }
+      ]
+    },
+    "SupportsRequiredFor": "Any",
+    "Supporting": {
+      "Down": [
+        {
+          "FaceType": "Essence_Lantern"
+        },
+        {}
+      ]
+    },
+    "Particles": [
+      {
+        "SystemId": "Fire_Green",
+        "PositionOffset": {
+          "Y": -0.65
+        },
+        "Scale": 0.5
+      }
+    ],
+    "Opacity": "Transparent"
+  },
+  "Variant": true
 }

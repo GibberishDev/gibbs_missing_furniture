@@ -1,0 +1,78 @@
+{
+  "Parent": "Essence_Light_Hanging",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  },
+  "BlockType": {
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "Essence_Light",
+      "TemplateShapeBlockPatterns": {
+        "Default": "Lightning_Essence_Lantern_Hanging",
+        "Connected": "Lightning_Essence_Lantern_Hanging_Connected"
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {},
+        "Off": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Essence_Light/Essence_Light_Hanging_No_Detail.blockymodel",
+          "CustomModelAnimation": "Blocks/Essence_Light/off.blockyanim",
+          "Light": {
+            "Color": "#000"
+          },
+          "ConnectedBlockRuleSet": {
+            "Type": "CustomTemplate",
+            "TemplateShapeAssetId": "Essence_Light",
+            "TemplateShapeBlockPatterns": {
+              "Default": "*Lightning_Essence_Lantern_Hanging_State_Definitions_Off",
+              "Connected": "*Lightning_Essence_Lantern_Hanging_Connected_State_Definitions_Off"
+            }
+          },
+          "BlockParticleSetId": "GlassEmpty",
+          "Particles": [],
+          "InteractionHint": "server.interactionHints.turnon",
+          "InteractionSoundEventId": "SFX_Torch_Off"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Lightning_Essence_Lantern"
+      },
+      "Soft": {
+        "ItemId": "Lightning_Essence_Lantern"
+      }
+    },
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/deco/essence_light/lightning_essence_light.png"
+      }
+    ],
+    "Particles": [
+      {
+        "SystemId": "Ellectric_Sparks",
+        "Scale": 0.6,
+        "PositionOffset": {
+          "Y": -0.65
+        }
+      }
+    ],
+    "Light": {
+      "Color": "#890"
+    },
+    "RequiresAlphaBlending": false,
+    "CustomModel": "Blocks/Essence_Light/Essence_Light_Hanging_No_Detail.blockymodel",
+    "ParticleColor": "#ebff00"
+  }
+}

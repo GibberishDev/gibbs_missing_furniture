@@ -10,7 +10,7 @@
       "Url": ""
     }
   ],
-  "ServerVersion": "2026.02.17-255364b8e",
+  "ServerVersion": "2026.02.18-f3b8fff95",
   "Website": "",
   "Dependencies": {},
   "OptionalDependencies": {},
@@ -25,6 +25,11 @@
         "Update Modular Tables to not ustilize BlockTypeListAsset to not trigger error in Hytale causeing a crash",
         "Rework Modular Tables so they are inherrited ItemType instead of unique item each time",
         "Update UV mapping and models to better fit ornate variations of Modular Tables"
+      ],
+      "0.1.2":[
+        "# Update v0.1.2",
+        "Essence Lanterns!",
+        "Added essence lanterns for each of 6 essences. can be placed or hung from surfaces or even other essence lanterns"
       ]
     }
   ]

@@ -1,0 +1,78 @@
+{
+  "Parent": "Essence_Light_Hanging",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  },
+  "BlockType": {
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "Essence_Light",
+      "TemplateShapeBlockPatterns": {
+        "Default": "Ice_Essence_Lantern_Hanging",
+        "Connected": "Ice_Essence_Lantern_Hanging_Connected"
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {},
+        "Off": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Essence_Light/Essence_Light_Hanging.blockymodel",
+          "CustomModelAnimation": "Blocks/Essence_Light/off.blockyanim",
+          "Light": {
+            "Color": "#000"
+          },
+          "ConnectedBlockRuleSet": {
+            "Type": "CustomTemplate",
+            "TemplateShapeAssetId": "Essence_Light",
+            "TemplateShapeBlockPatterns": {
+              "Default": "*Ice_Essence_Lantern_Hanging_State_Definitions_Off",
+              "Connected": "*Ice_Essence_Lantern_Hanging_Connected_State_Definitions_Off"
+            }
+          },
+          "BlockParticleSetId": "GlassEmpty",
+          "Particles": [],
+          "InteractionHint": "server.interactionHints.turnon",
+          "InteractionSoundEventId": "SFX_Torch_Off"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Ice_Essence_Lantern"
+      },
+      "Soft": {
+        "ItemId": "Ice_Essence_Lantern"
+      }
+    },
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/deco/essence_light/ice_essence_light.png"
+      }
+    ],
+    "Particles": [
+      {
+        "SystemId": "Fire_Teal",
+        "Scale": 0.5,
+        "PositionOffset": {
+          "Y": -0.65
+        },
+        "DetachedFromModel": false,
+        "Color": "#ffffff"
+      }
+    ],
+    "Light": {
+      "Color": "#29b"
+    },
+    "ParticleColor": "#1edbe5"
+  }
+}

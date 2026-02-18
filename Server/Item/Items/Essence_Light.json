@@ -7,20 +7,17 @@
   "BlockType": {
     "PlacementSettings": {
       "CeilingPlacementOverrideBlockId": "Essence_Light_Hanging",
-      "FloorPlacementOverrideBlockId": "Essence_Light"
+      "FloorPlacementOverrideBlockId": "Essence_Light",
+      "WallPlacementOverrideBlockId": "Essence_Light_Hanging"
     },
-    "Material": "Solid",
     "DrawType": "Model",
-    "Opacity": "Transparent",
     "Light": {
-      "Color": "#7b3",
-      "Radius": 1
+      "Color": "#9e4"
     },
-    "Flags": {},
     "Gathering": {
       "Soft": {}
     },
-    "BlockSoundSetId": "Wood",
+    "BlockSoundSetId": "Clay_Pot_Small",
     "CustomModel": "Blocks/Essence_Light/Essence_Light.blockymodel",
     "InteractionHint": "server.interactionHints.turnoff",
     "CustomModelTexture": [
@@ -40,7 +37,9 @@
           "Light": {
             "Color": "#000"
           },
-          "InteractionHint": "server.interactionHints.turnon"
+          "InteractionHint": "server.interactionHints.turnon",
+          "Particles": [],
+          "InteractionSoundEventId": "SFX_Torch_Off"
         }
       }
     },
@@ -117,25 +116,26 @@
         }
       ]
     },
-    "Supporting": {
-      "Down": [
-        {
-          "FaceType": "Essence_Light"
-        },
-        {
-          "FaceType": "Full"
-        }
-      ]
-    },
-    "CubeShadingMode": "Standard",
-    "RequiresAlphaBlending": false,
+    "RequiresAlphaBlending": true,
     "Tags": {
       "Deco": [
         "Essence_Light"
       ]
-    }
+    },
+    "Particles": [
+      {
+        "SystemId": "Fire_Green",
+        "Scale": 0.5,
+        "PositionOffset": {
+          "Y": 0.25
+        },
+        "DetachedFromModel": false
+      }
+    ],
+    "CubeShadingMode": "Standard",
+    "Opacity": "Transparent",
+    "Material": "Solid"
   },
-  "PlayerAnimationsId": "Block",
   "Tags": {
     "Type": [
       "Deco"
@@ -155,5 +155,16 @@
       -8
     ]
   },
-  "Quality": "Debug"
+  "Quality": "Debug",
+  "PlayerAnimationsId": "Item",
+  "UsePlayerAnimations": true,
+  "Light": {
+    "Radius": 100,
+    "Color": "#7b3"
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Model": "Blocks/Essence_Light/Essence_Light.blockymodel"
 }

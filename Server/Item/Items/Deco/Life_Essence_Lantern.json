@@ -1,0 +1,93 @@
+{
+  "Parent": "Essence_Light",
+  "BlockType": {
+    "PlacementSettings": {
+      "CeilingPlacementOverrideBlockId": "Life_Essence_Lantern_Hanging",
+      "FloorPlacementOverrideBlockId": "Life_Essence_Lantern",
+      "WallPlacementOverrideBlockId": "Life_Essence_Lantern_Hanging"
+    },
+    "Gathering": {
+      "Soft": {}
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Off",
+              "On": "Off",
+              "Off": "On"
+            },
+            "UpdateBlockState": true
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {},
+        "Off": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Essence_Light/Essence_Light_No_Detail.blockymodel",
+          "CustomModelAnimation": "Blocks/Essence_Light/off.blockyanim",
+          "BlockParticleSetId": "GlassEmpty",
+          "Light": {
+            "Color": "#000"
+          },
+          "InteractionHint": "server.interactionHints.turnon",
+          "Particles": [],
+          "InteractionSoundEventId": "SFX_Torch_Off"
+        }
+      }
+    },
+    "Light": {
+      "Color": "#080"
+    },
+    "CustomModel": "Blocks/Essence_Light/Essence_Light_No_Detail.blockymodel"
+  },
+  "Icon": "Icons/ItemsGenerated/Nature_Essence_Lantern.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "",
+        "Quantity": 1,
+        "ItemId": "Potion_Empty"
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Deco_Rope",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Lighting"
+        ],
+        "Id": "Furniture_Bench"
+      }
+    ]
+  },
+  "Quality": "Uncommon",
+  "TranslationProperties": {
+    "Name": "items.Life_Essence_Lantern.name",
+    "Description": "items.Essence_Lantern.description"
+  }
+}

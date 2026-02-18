@@ -32,4 +32,12 @@ Redwood_Ornate_Modular_Table.name = Redwood Modular Table - Ornate
 Softwood_Ornate_Modular_Table.name = Softwood Modular Table - Ornate
 Tropicalwood_Ornate_Modular_Table.name = Tropicalwood Modular Table - Ornate
 
+Life_Essence_Lantern.name = Essence Lantern - Life Essence
+Ice_Essence_Lantern.name = Essence Lantern - Ice Essence
+Void_Essence_Lantern.name = Essence Lantern - Void Essence
+Lightning_Essence_Lantern.name = Essence Lantern - Lightning Essence
+Fire_Essence_Lantern.name = Essence Lantern - Fire Essence
+Water_Essence_Lantern.name = Essence Lantern - Water Essence
+
 Modular_Table.description = Try placing several modular tables next to each other!
+Essence_Lantern.description = These essence lanterns can be placed on blocks or hung from ropes, chians and other supporting surfaces. Including other essence lanterns!
