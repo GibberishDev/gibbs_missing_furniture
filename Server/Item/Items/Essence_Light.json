@@ -134,7 +134,8 @@
     ],
     "CubeShadingMode": "Standard",
     "Opacity": "Transparent",
-    "Material": "Solid"
+    "Material": "Solid",
+    "HitboxType": "Essence_Lantern"
   },
   "Tags": {
     "Type": [

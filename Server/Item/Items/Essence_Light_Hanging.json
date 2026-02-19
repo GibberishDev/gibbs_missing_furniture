@@ -111,7 +111,8 @@
         "Scale": 0.5
       }
     ],
-    "Opacity": "Transparent"
+    "Opacity": "Transparent",
+    "HitboxType": "Essence_Lantern_Hanging"
   },
   "Variant": true
 }
