@@ -78,7 +78,6 @@
   "Recipe": {
     "Input": [
       {
-        "ResourceTypeId": "",
         "Quantity": 1,
         "ItemId": "Potion_Empty"
       },

@@ -1,7 +1,7 @@
 {
   "Group": "gmf",
   "Name": "Gibb's missing furniture",
-  "Version": "0.1.2",
+  "Version": "0.1.3",
   "Description": "Sets of furniture I thought should be in the game",
   "Authors": [
     {
@@ -10,7 +10,7 @@
       "Url": ""
     }
   ],
-  "ServerVersion": "2026.02.18-f3b8fff95",
+  "ServerVersion": "2026.02.19-1a311a592",
   "Website": "",
   "Dependencies": {},
   "OptionalDependencies": {},
@@ -32,9 +32,9 @@
         "Added essence lanterns for each of 6 essences. can be placed or hung from surfaces or even other essence lanterns"
       ],
       "0.1.3":[
-        "# Update v0.1.3 !!!DRAFT!!!",
-        "Essence Lanterns recieved accurate hitboxes",
-        " * Essence lanterns no longer use 1x1x1 cube hitbox"
+        "# Update v0.1.3",
+        " * Essence Lanterns recieved accurate hitboxes",
+        " * Essence lanterns got their recipies fixed"
       ]
     }
   ]
