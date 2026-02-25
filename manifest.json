@@ -35,6 +35,10 @@
         "# Update v0.1.3",
         " * Essence Lanterns recieved accurate hitboxes",
         " * Essence lanterns got their recipies fixed"
+      ],
+      "0.1.4":[
+        "# Update v0.1.4",
+        " * make textures have size multiple of 32"
       ]
     }
   ]
