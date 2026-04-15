@@ -8,8 +8,7 @@
       }
     ],
     "Group": "Stone",
-    "Material": "Solid",
-    "RequiresAlphaBlending": false,
+    "Flags": {},
     "Interactions": {
       "Use": {
         "Interactions": [
@@ -40,7 +39,8 @@
               "SystemId": "Chimney_Smoke"
             }
           ],
-          "InteractionHint": "server.interactionHints.turnoff"
+          "InteractionHint": "server.interactionHints.turnoff",
+          "InteractionSoundEventId": "SFX_Torch_Off"
         },
         "Unlit": {
           "DrawType": "Model",
@@ -65,7 +65,14 @@
         }
       ]
     },
-    "CubeShadingMode": "Flat"
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockSoundSetId": "Stone",
+    "BlockParticleSetId": "Stone",
+    "Material": "Solid"
   },
   "Icon": "Icons/ItemsGenerated/Chimney_Debug.png",
   "IconProperties": {
@@ -80,10 +87,21 @@
       -13.5
     ]
   },
-  "UsePlayerAnimations": true,
   "PlayerAnimationsId": "Block",
   "Interactions": {
     "Primary": "Block_Primary",
     "Secondary": "Block_Secondary"
-  }
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Stone"
+    ]
+  },
+  "Quality": "Debug"
 }
