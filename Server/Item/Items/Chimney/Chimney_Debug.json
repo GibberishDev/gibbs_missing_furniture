@@ -1,0 +1,89 @@
+{
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Chimney_Base.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/deco/Chimney/Base.png"
+      }
+    ],
+    "Group": "Stone",
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Lit",
+              "Lit": "Unlit",
+              "Unlit": "Lit"
+            },
+            "UpdateBlockState": true
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Lit": {
+          "DrawType": "Model",
+          "CustomModelTexture": [
+            {
+              "Texture": "BlockTextures/deco/Chimney/Base.png"
+            }
+          ],
+          "CustomModel": "Blocks/Chimney_Base.blockymodel",
+          "Particles": [
+            {
+              "SystemId": "Chimney_Smoke"
+            }
+          ],
+          "InteractionHint": "server.interactionHints.turnoff"
+        },
+        "Unlit": {
+          "DrawType": "Model",
+          "CustomModelTexture": [
+            {
+              "Texture": "BlockTextures/deco/Chimney/Base.png"
+            }
+          ],
+          "CustomModel": "Blocks/Chimney_Base.blockymodel",
+          "InteractionHint": "server.interactionHints.turnon"
+        }
+      }
+    },
+    "InteractionSoundEventId": "SFX_Torch_Off",
+    "InteractionHint": "server.interactionHints.turnon",
+    "InteractionHitboxType": "Chimney",
+    "HitboxType": "Chimney",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "CubeShadingMode": "Flat"
+  },
+  "Icon": "Icons/ItemsGenerated/Chimney_Debug.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "UsePlayerAnimations": true,
+  "PlayerAnimationsId": "Block",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  }
+}
