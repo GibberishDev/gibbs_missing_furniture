@@ -40,7 +40,8 @@ Fire_Essence_Lantern.name = Essence Lantern - Fire Essence
 Water_Essence_Lantern.name = Essence Lantern - Water Essence
 
 Gold_Chimney.name = Gold Brick Pillar - Chinmey
+Aqua_Chimney.name = Aqua Brick Pillar - Chinmey
 
 Modular_Table.description = Try placing several modular tables next to each other!
 Essence_Lantern.description = These essence lanterns can be placed on blocks or hung from ropes, chians and other supporting surfaces. Including other essence lanterns!
-Chimney.description = Fancy chimney that can be place right on top of any pillar. Can be toggled to produce smoke
+Chimney.description = Fancy chimney that can be placed right on top of any pillar. Can be toggled to produce smoke

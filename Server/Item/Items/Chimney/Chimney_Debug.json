@@ -103,5 +103,8 @@
       "Stone"
     ]
   },
-  "Quality": "Debug"
+  "Quality": "Debug",
+  "Categories": [
+    "Blocks.Rocks"
+  ]
 }

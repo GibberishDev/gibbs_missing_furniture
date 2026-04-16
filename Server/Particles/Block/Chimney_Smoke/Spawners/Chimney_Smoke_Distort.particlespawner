@@ -241,8 +241,12 @@
   ],
   "TrailSpawnerPositionMultiplier": 0.1,
   "TrailSpawnerRotationMultiplier": 0.1,
-  "LightInfluence": 1,
-  "LinearFiltering": false,
   "RenderMode": "Distortion",
-  "ParticleRotateWithSpawner": false
+  "ParticleRotateWithSpawner": false,
+  "LightInfluence": 1,
+  "IsLowRes": true,
+  "ParticleCollision": {
+    "BlockType": "Solid",
+    "Action": "Linger"
+  }
 }

@@ -1,9 +1,12 @@
 {
   "LifeSpan": 0,
-  "CullDistance": 1,
+  "CullDistance": 100,
   "Spawners": [
     {
-      "SpawnerId": "Chimney_Smoke"
+      "SpawnerId": "Chimney_Smoke",
+      "PositionOffset": {
+        "Y": 0.8
+      }
     },
     {
       "SpawnerId": "Chimney_Smoke_Distort",

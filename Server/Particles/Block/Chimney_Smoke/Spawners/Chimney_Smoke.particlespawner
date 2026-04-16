@@ -13,8 +13,6 @@
         "Max": 3
       }
     },
-    "UseSpriteBlending": true,
-    "SoftParticles": "Enable",
     "Animation": {
       "0": {
         "Scale": {
@@ -140,7 +138,7 @@
             "Min": 0
           }
         },
-        "Opacity": 0.684,
+        "Opacity": 0.588,
         "Color": "#9f9f9f",
         "FrameIndex": {
           "Min": 0,
@@ -167,7 +165,7 @@
             "Min": 0
           }
         },
-        "Opacity": 0.56,
+        "Opacity": 0.38,
         "Color": "#9a9a9a",
         "FrameIndex": {
           "Min": 1,
@@ -194,7 +192,7 @@
             "Min": 0
           }
         },
-        "Opacity": 0.212,
+        "Opacity": 0.144,
         "Color": "#838383",
         "FrameIndex": {
           "Min": 2,
@@ -228,7 +226,8 @@
           "Max": 3
         }
       }
-    }
+    },
+    "UseSpriteBlending": true
   },
   "TotalParticles": {
     "Min": -1,
@@ -267,10 +266,12 @@
       }
     }
   ],
-  "TrailSpawnerPositionMultiplier": 0.1,
-  "TrailSpawnerRotationMultiplier": 0.1,
   "LightInfluence": 1,
-  "LinearFiltering": false,
   "RenderMode": "BlendAdd",
-  "ParticleRotateWithSpawner": false
+  "ParticleRotateWithSpawner": false,
+  "IsLowRes": true,
+  "ParticleCollision": {
+    "BlockType": "Solid",
+    "Action": "Linger"
+  }
 }
