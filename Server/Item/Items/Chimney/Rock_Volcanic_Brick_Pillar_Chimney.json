@@ -1,0 +1,82 @@
+{
+  "Parent": "Chimney_Debug",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/deco/Chimney/Volcanic_Chimney.png"
+      }
+    ],
+    "State": {
+      "Definitions": {
+        "Lit": {
+          "DrawType": "Model",
+          "CustomModelTexture": [
+            {
+              "Texture": "BlockTextures/deco/Chimney/Volcanic_Chimney.png"
+            }
+          ],
+          "CustomModel": "Blocks/Chimney_Base.blockymodel",
+          "Particles": [
+            {
+              "SystemId": "Chimney_Smoke"
+            }
+          ],
+          "InteractionHint": "server.interactionHints.turnoff",
+          "InteractionSoundEventId": "SFX_Torch_Off"
+        },
+        "Unlit": {
+          "DrawType": "Model",
+          "CustomModelTexture": [
+            {
+              "Texture": "BlockTextures/deco/Chimney/Volcanic_Chimney.png"
+            }
+          ],
+          "CustomModel": "Blocks/Chimney_Base.blockymodel",
+          "InteractionHint": "server.interactionHints.turnon",
+          "InteractionSoundEventId": "SFX_Torch_Off"
+        }
+      }
+    },
+    "Group": "Stone",
+    "ParticleColor": "#3f3331",
+    "InteractionSoundEventId": "SFX_Torch_Off"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Set": "Rock_Volcanic",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Rock_Volcanic_Brick"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Pillar"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "TranslationProperties": {
+    "Name": "items.Volcanic_Chimney.name",
+    "Description": "items.Chimney.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Rock_Volcanic_Brick_Pillar_Chimney.png"
+}
