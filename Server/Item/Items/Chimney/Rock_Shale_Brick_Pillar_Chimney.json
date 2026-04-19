@@ -1,12 +1,9 @@
 {
   "Parent": "Chimney_Debug",
   "BlockType": {
-    "Group": "Stone",
-    "ParticleColor": "#0d0a0a",
-    "InteractionSoundEventId": "SFX_Torch_Off",
     "CustomModelTexture": [
       {
-        "Texture": "BlockTextures/deco/Chimney/Magma_Cooled_Chimney.png"
+        "Texture": "BlockTextures/deco/Chimney/Shale_Chimney.png"
       }
     ],
     "State": {
@@ -15,7 +12,7 @@
           "DrawType": "Model",
           "CustomModelTexture": [
             {
-              "Texture": "BlockTextures/deco/Chimney/Magma_Cooled_Chimney.png"
+              "Texture": "BlockTextures/deco/Chimney/Shale_Chimney.png"
             }
           ],
           "CustomModel": "Blocks/Chimney_Base.blockymodel",
@@ -31,7 +28,7 @@
           "DrawType": "Model",
           "CustomModelTexture": [
             {
-              "Texture": "BlockTextures/deco/Chimney/Magma_Cooled_Chimney.png"
+              "Texture": "BlockTextures/deco/Chimney/Shale_Chimney.png"
             }
           ],
           "CustomModel": "Blocks/Chimney_Base.blockymodel",
@@ -39,10 +36,13 @@
           "InteractionSoundEventId": "SFX_Torch_Off"
         }
       }
-    }
+    },
+    "Group": "Stone",
+    "ParticleColor": "#3d4a52",
+    "InteractionSoundEventId": "SFX_Torch_Off"
   },
   "ItemSoundSetId": "ISS_Blocks_Stone",
-  "Set": "Rock_Magma_Cooled",
+  "Set": "Rock_Shale",
   "IconProperties": {
     "Scale": 0.58823,
     "Rotation": [
@@ -59,7 +59,7 @@
     "Input": [
       {
         "Quantity": 1,
-        "ResourceTypeId": "Rock_Magma_Cooled_Brick"
+        "ResourceTypeId": "Rock_Shale_Brick"
       }
     ],
     "BenchRequirement": [
@@ -75,8 +75,8 @@
     "TimeSeconds": 0
   },
   "TranslationProperties": {
-    "Name": "items.Magma_Cooled_Chimney.name",
+    "Name": "items.Shale_Chimney.name",
     "Description": "items.Chimney.description"
   },
-  "Icon": "Icons/ItemsGenerated/Rock_Magma_Cooled_Brick_Pillar_Chimney.png"
+  "Icon": "Icons/ItemsGenerated/Rock_Shale_Brick_Pillar_Chimney.png"
 }

@@ -3,7 +3,7 @@
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "BlockTextures/deco/Chimney/Quartzite_Chimney.png"
+        "Texture": "BlockTextures/deco/Chimney/Sandstone_White_Chimney.png"
       }
     ],
     "State": {
@@ -12,7 +12,7 @@
           "DrawType": "Model",
           "CustomModelTexture": [
             {
-              "Texture": "BlockTextures/deco/Chimney/Quartzite_Chimney.png"
+              "Texture": "BlockTextures/deco/Chimney/Sandstone_White_Chimney.png"
             }
           ],
           "CustomModel": "Blocks/Chimney_Base.blockymodel",
@@ -28,7 +28,7 @@
           "DrawType": "Model",
           "CustomModelTexture": [
             {
-              "Texture": "BlockTextures/deco/Chimney/Quartzite_Chimney.png"
+              "Texture": "BlockTextures/deco/Chimney/Sandstone_White_Chimney.png"
             }
           ],
           "CustomModel": "Blocks/Chimney_Base.blockymodel",
@@ -38,11 +38,11 @@
       }
     },
     "Group": "Stone",
-    "ParticleColor": "#5a5144",
+    "ParticleColor": "#e6c367",
     "InteractionSoundEventId": "SFX_Torch_Off"
   },
   "ItemSoundSetId": "ISS_Blocks_Stone",
-  "Set": "Rock_Quartzite",
+  "Set": "Rock_Sandstone_White",
   "IconProperties": {
     "Scale": 0.58823,
     "Rotation": [
@@ -59,7 +59,7 @@
     "Input": [
       {
         "Quantity": 1,
-        "ResourceTypeId": "Rock_Quartzite_Brick"
+        "ResourceTypeId": "Rock_Sandstone_White_Brick"
       }
     ],
     "BenchRequirement": [
@@ -75,8 +75,8 @@
     "TimeSeconds": 0
   },
   "TranslationProperties": {
-    "Name": "items.Quartzite_Chimney.name",
+    "Name": "items.White_Sandstone_Chimney.name",
     "Description": "items.Chimney.description"
   },
-  "Icon": "Icons/ItemsGenerated/Rock_Quatzite_Brick_Pillar_Chimney.png"
+  "Icon": "Icons/ItemsGenerated/Rock_Sandstone_White_Brick_Pillar_Chimney.png"
 }

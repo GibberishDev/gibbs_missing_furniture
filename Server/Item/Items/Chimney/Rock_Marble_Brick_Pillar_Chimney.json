@@ -38,7 +38,7 @@
       }
     },
     "Group": "Stone",
-    "ParticleColor": "#5a5144",
+    "ParticleColor": "#d5d5c8",
     "InteractionSoundEventId": "SFX_Torch_Off"
   },
   "ItemSoundSetId": "ISS_Blocks_Stone",
