@@ -43,6 +43,14 @@
       "0.1.3.2":[
         "# Update v0.1.3.2",
         " * make textures have size multiple of 32"
+      ],
+      "0.1.4":[
+        "# Update v0.1.4",
+        " * Update for latest release version",
+        " * Add chimneys",
+        " * Implement rope rotation in connected block models for hanging lanterns (thanks Hytale team for fixing this)",
+        " * Fix default Stone pillar middle and chalk pillar middle not have supporting tag for 'UP'",
+        " * Minor bug fixes and hitbox updates"
       ]
     }
   ]
