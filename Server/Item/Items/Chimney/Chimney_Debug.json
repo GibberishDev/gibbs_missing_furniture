@@ -1,7 +1,6 @@
 {
   "BlockType": {
     "DrawType": "Model",
-    "CustomModel": "Blocks/Chimney_Base.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "BlockTextures/deco/Chimney/Base.png"
@@ -72,7 +71,8 @@
     },
     "BlockSoundSetId": "Stone",
     "BlockParticleSetId": "Stone",
-    "Material": "Solid"
+    "Material": "Solid",
+    "CustomModel": "Blocks/Chimney_Base.blockymodel"
   },
   "Icon": "Icons/ItemsGenerated/Chimney_Debug.png",
   "IconProperties": {

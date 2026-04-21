@@ -1,0 +1,65 @@
+{
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Fireplace.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/deco/Chimney/Stone_Chimney.png"
+      }
+    ],
+    "VariantRotation": "NESW",
+    "InteractionHitboxType": "fireplace",
+    "HitboxType": "fireplace",
+    "Material": "Solid",
+    "Supporting": {
+      "Up": [
+        {
+          "Filler": [
+            {
+              "Y": 1
+            }
+          ]
+        }
+      ],
+      "East": [
+        {
+          "Filler": [
+            {
+              "Y": 0,
+              "X": 1
+            }
+          ]
+        }
+      ],
+      "West": [
+        {
+          "Filler": [
+            {
+              "X": -1
+            }
+          ]
+        }
+      ],
+      "North": [
+        {
+          "Filler": [
+            {},
+            {
+              "X": 1
+            },
+            {
+              "X": -1
+            },
+            {
+              "Y": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  }
+}
