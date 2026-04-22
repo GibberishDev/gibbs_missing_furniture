@@ -4,7 +4,7 @@
     "CustomModel": "Blocks/Fireplace.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "BlockTextures/deco/Chimney/Stone_Chimney.png"
+        "Texture": "BlockTextures/deco/Fireplace/Rock_Stone_Fireplace.png"
       }
     ],
     "VariantRotation": "NESW",
