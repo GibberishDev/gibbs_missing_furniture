@@ -56,10 +56,84 @@
           ]
         }
       ]
-    }
+    },
+    "Opacity": "Semitransparent",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Lit",
+              "Lit": "Unlit",
+              "Unlit": "Lit"
+            },
+            "UpdateBlockState": true
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Lit": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Fireplace.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "BlockTextures/deco/Fireplace/Rock_Stone_Fireplace.png"
+            }
+          ],
+          "Particles": [
+            {
+              "SystemId": "Campfire_New_Cartoon",
+              "PositionOffset": {
+                "Y": -1.4,
+                "Z": 0
+              },
+              "Scale": 1.5
+            },
+            {
+              "SystemId": "Fireplace_Smoke"
+            }
+          ],
+          "Light": {
+            "Color": "#e92",
+            "Radius": 5
+          },
+          "Opacity": "Transparent",
+          "AmbientSoundEventId": "SFX_Campfire_Default_Loop",
+          "InteractionHint": "server.interactionHints.turnoff"
+        },
+        "Unlit": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Fireplace.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "BlockTextures/deco/Fireplace/Rock_Stone_Fireplace.png"
+            }
+          ],
+          "InteractionHint": "server.interactionHints.turnon"
+        }
+      }
+    },
+    "BlockSoundSetId": "Stone",
+    "InteractionSoundEventId": "SFX_Torch_Off"
   },
   "Interactions": {
     "Primary": "Block_Primary",
     "Secondary": "Block_Secondary"
+  },
+  "Icon": "Icons/ItemsGenerated/Rock_Stone_Fireplace.png",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      0,
+      47,
+      25
+    ],
+    "Translation": [
+      4,
+      -26
+    ]
   }
 }
