@@ -135,5 +135,27 @@
       4,
       -26
     ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 6,
+        "ResourceTypeId": "Rock_Stone_Brick"
+      },
+      {
+        "ResourceTypeId": "Wood_All_Trunk"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "Id": "Furniture_Bench"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
   }
 }
