@@ -117,7 +117,9 @@
       }
     },
     "BlockSoundSetId": "Stone",
-    "InteractionSoundEventId": "SFX_Torch_Off"
+    "InteractionSoundEventId": "SFX_Torch_Off",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#737055"
   },
   "Interactions": {
     "Primary": "Block_Primary",
@@ -157,5 +159,19 @@
     ],
     "OutputQuantity": 1,
     "TimeSeconds": 0
-  }
+  },
+  "TranslationProperties": {
+    "Name": "items.Stone_Fireplace.name",
+    "Description": "items.Fireplace.description"
+  },
+  "Set": "Rock_Stone",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "UsePlayerAnimations": true,
+  "PlayerAnimationsId": {
+    "Parent": "Block"
+  },
+  "Scale": 0.33
 }
