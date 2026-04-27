@@ -1,0 +1,9 @@
+{
+  "Parent": "Rock_Stone_Fireplace",
+  "TranslationProperties": {
+    "Name": "items.Chalk_Fireplace.name"
+  },
+  "BlockType": {
+    "ParticleColor": "#d0ccc6"
+  }
+}
