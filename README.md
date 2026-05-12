@@ -5,3 +5,4 @@ Currently adds:
 * Essence lanterns (6 for each base essence)
 * Modular tables (33 for each plank type)
 * Chimneys (16 for each currently added middle column piece)
+* Fireplaces 
