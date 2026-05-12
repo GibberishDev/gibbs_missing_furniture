@@ -1,0 +1,177 @@
+{
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Fireplace.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/deco/Fireplace/Rock_Stone_Fireplace.png"
+      }
+    ],
+    "VariantRotation": "NESW",
+    "InteractionHitboxType": "fireplace",
+    "HitboxType": "fireplace",
+    "Material": "Solid",
+    "Supporting": {
+      "Up": [
+        {
+          "Filler": [
+            {
+              "Y": 1
+            }
+          ]
+        }
+      ],
+      "East": [
+        {
+          "Filler": [
+            {
+              "Y": 0,
+              "X": 1
+            }
+          ]
+        }
+      ],
+      "West": [
+        {
+          "Filler": [
+            {
+              "X": -1
+            }
+          ]
+        }
+      ],
+      "North": [
+        {
+          "Filler": [
+            {},
+            {
+              "X": 1
+            },
+            {
+              "X": -1
+            },
+            {
+              "Y": 1
+            }
+          ]
+        }
+      ]
+    },
+    "Opacity": "Semitransparent",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Lit",
+              "Lit": "Unlit",
+              "Unlit": "Lit"
+            },
+            "UpdateBlockState": true
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Lit": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Fireplace.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "BlockTextures/deco/Fireplace/Rock_Stone_Fireplace.png"
+            }
+          ],
+          "Particles": [
+            {
+              "SystemId": "Campfire_New_Cartoon",
+              "PositionOffset": {
+                "Y": -1.4,
+                "Z": 0
+              },
+              "Scale": 1.5
+            },
+            {
+              "SystemId": "Fireplace_Smoke"
+            }
+          ],
+          "Light": {
+            "Color": "#e92",
+            "Radius": 5
+          },
+          "Opacity": "Transparent",
+          "AmbientSoundEventId": "SFX_Campfire_Default_Loop",
+          "InteractionHint": "server.interactionHints.turnoff"
+        },
+        "Unlit": {
+          "DrawType": "Model",
+          "CustomModel": "Blocks/Fireplace.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "BlockTextures/deco/Fireplace/Rock_Stone_Fireplace.png"
+            }
+          ],
+          "InteractionHint": "server.interactionHints.turnon"
+        }
+      }
+    },
+    "BlockSoundSetId": "Stone",
+    "InteractionSoundEventId": "SFX_Torch_Off",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#737055"
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Icon": "Icons/ItemsGenerated/Rock_Stone_Fireplace.png",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      0,
+      47,
+      25
+    ],
+    "Translation": [
+      4,
+      -26
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 6,
+        "ResourceTypeId": "Rock_Stone_Brick"
+      },
+      {
+        "ResourceTypeId": "Wood_All_Trunk"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ],
+        "Id": "Furniture_Bench"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "TranslationProperties": {
+    "Name": "items.Stone_Fireplace.name",
+    "Description": "items.Fireplace.description"
+  },
+  "Set": "Rock_Stone",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "UsePlayerAnimations": true,
+  "PlayerAnimationsId": {
+    "Parent": "Block"
+  },
+  "Scale": 0.33
+}

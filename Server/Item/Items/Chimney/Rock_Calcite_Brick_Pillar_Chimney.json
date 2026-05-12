@@ -78,5 +78,6 @@
     "Name": "items.Calcite_Chimney.name",
     "Description": "items.Chimney.description"
   },
-  "Icon": "Icons/ItemsGenerated/Rock_Calcite_Brick_Pillar_Chimney.png"
+  "Icon": "Icons/ItemsGenerated/Rock_Calcite_Brick_Pillar_Chimney.png",
+  "Scale": 1
 }
